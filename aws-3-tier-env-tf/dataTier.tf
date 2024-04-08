@@ -93,7 +93,7 @@ module "db" {
   identifier_name = "tf-db"
   allocated_storage = 10
   db_name           = "mydb"
-  username = "harshita"
+  username = "avinash"
   vpc_security_group_ids = [module.sg_rds.sg_id]
   tags_rds = {
     Name = "tf-db"
